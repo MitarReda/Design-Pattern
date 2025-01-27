@@ -2,7 +2,6 @@ package org.example.ClassDP;
 
 public abstract class CompressorBase {
     public final int[] compress(int[] data) {
-        // Étapes communes
         preProcess(data);
         return compressDetails(data);
     }
